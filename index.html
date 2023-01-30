@@ -2,6 +2,18 @@
 <html lang="en">
 <html>
   <head>
+      <script>if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/service-worker.js')
+      .then(registration => {
+        console.log('Service worker registered:', registration);
+      })
+      .catch(error => {
+        console.log('Service worker registration failed:', error);
+      });
+  });
+}
+</script>
     <meta name="description" content="A fun website made by me Daniel to experiment with html, come have a look!">
        <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="manifest" href="/manifest.json">
