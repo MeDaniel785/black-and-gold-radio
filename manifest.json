@@ -1,0 +1,17 @@
+{
+  "short_name": "B&G Radio",
+  "name": "Black & Gold Radio",
+  "description": "Get black and gold student radio as an app!",
+  "icons": [
+    {
+      "src": "R.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "https://daniel-s-website.pages.dev/home",
+  "background_color": "#fbce0f",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#fbce0f"
+}
