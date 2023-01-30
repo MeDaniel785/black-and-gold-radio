@@ -5,13 +5,33 @@
     <style>
 body {
   background-image: url('https://s3-eu-central-1.amazonaws.com/a.airtime.pro/96/64196/radio-page-background-images/9259f666e8f3d49d2510685f484d3676.jpg');
-}
-        .alert {
+</style>
+  <style>
+  .alert {
   padding: 20px;
   background-color: #f44336;
   color: white;
   }
-</style>
-<hr>
-    <div class="alert success">
+
+  .closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  }
+
+  .closebtn:hover {
+  color: black;
+  }
+  </style>
+</head>
+<div class="alert success">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>Your running version V 1.0.2 check the application tab on F12 to check the service worker</div>
+<div class="alert success">
   <span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>Looking for an update? To update the web app on your device go <bold>https://daniel-s-website.pages.dev/update</bold></div>
+
+</html>
